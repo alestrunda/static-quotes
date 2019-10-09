@@ -1,6 +1,6 @@
 # Static Quotes
 
-Rainmeter skin to display quotes. I've styled more than 50 quotes. Very useful to have your favorite motivational quote always on site.
+Rainmeter skin to display quotes right on your screen. I've styled more than 50 quotes. Very useful to have your favorite motivational quote always on site.
 
 First add the skin - in directory *User/Documents/Rainmeter/Skins* create folder *StaticQuote* and put the *.ini* file in it. Activate the skin in Rainmeter.
 
