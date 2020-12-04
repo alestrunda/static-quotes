@@ -3,16 +3,17 @@ MAX_QUOTE_PARTS = 5
 function Update()
   local quoteIDs = SKIN:GetVariable('Quotes')
   local quotes = {}
-  local index = 1 --Lua indexes tables from 1
+  local index = 1 --lua indexes tables from 1
 
+  --loop all quotes and hide them
   for id in string.gmatch(quoteIDs, "%w+") do 
     quotes[index] = id
     setQuoteVisibility(id, false)
     index = index + 1
   end
 
+  --show random quote
   local randomID = quotes[ math.random( #quotes ) ]
-  print("Random " .. randomID)
   setQuoteVisibility(randomID, true)
   return randomID
 end
