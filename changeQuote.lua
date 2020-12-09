@@ -1,5 +1,8 @@
 MAX_QUOTE_PARTS = 5
 
+--need to seed the random number generator first before using math.random()
+math.randomseed(os.time())
+
 function Update()
   local quoteIDs = SKIN:GetVariable('Quotes')
   local quotes = {}
